@@ -1,0 +1,17 @@
+ messages[index]["data"] == 0
+                      ? Text(messages[index]["message"].toString())
+                      : Text(
+                          messages[index]["message"].toString(),
+                          textAlign: TextAlign.right,
+
+if(messages[index]["data"] == 0){
+    return Text(
+        messages[index]["message"].toString()
+        );
+}
+else{
+    return Text(
+        messages[index]["message"].toString(),
+        textAlign: TextAlign.right,
+        );
+}
